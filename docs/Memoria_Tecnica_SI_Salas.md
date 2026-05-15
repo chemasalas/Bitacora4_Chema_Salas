@@ -2,10 +2,10 @@
 ## Infraestructura Docker y Apache Guacamole
 
 ### Autor
-Tu Nombre y Apellidos
+Chema Salas Galan
 
 ### Ciclo
-ASIR / DAM / DAW
+DAW 1
 
 ### Fecha
 15 de mayo de 2026
