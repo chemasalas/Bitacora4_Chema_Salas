@@ -15,6 +15,7 @@ ASIR / DAM / DAW
 # Índice
 
 (1) Análisis de Necesidades
+ 
   1.1 Contexto y Problemática Actual
   
   1.2 Solución Propuesta: Infraestructura Docker-Guacamole
