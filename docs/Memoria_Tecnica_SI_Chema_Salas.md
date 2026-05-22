@@ -62,7 +62,7 @@ En conjunto, la combinación de Docker y Apache Guacamole proporciona una soluci
 
 ---
 
-# 2. Referencias
+# 1.4 Referencias
 
 [1] Apache Guacamole Project. Disponible en: https://guacamole.apache.org/
 
@@ -73,3 +73,8 @@ En conjunto, la combinación de Docker y Apache Guacamole proporciona una soluci
 [4] García Notario, D. “Análisis de requisitos en el desarrollo del software”.
 
 [5] Drake, J. M. “Análisis de requisitos y especificación de una aplicación”.
+
+## 2. Estimación de Costes de Infraestructura
+
+<img width="837" height="207" alt="image" src="https://github.com/user-attachments/assets/830ef5bf-3f73-4106-b644-85d977987e41" />
+
