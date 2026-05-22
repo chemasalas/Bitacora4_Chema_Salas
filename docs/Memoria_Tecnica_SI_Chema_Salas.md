@@ -78,3 +78,13 @@ En conjunto, la combinación de Docker y Apache Guacamole proporciona una soluci
 
 <img width="837" height="207" alt="image" src="https://github.com/user-attachments/assets/830ef5bf-3f73-4106-b644-85d977987e41" />
 
+## 3. Estrategia de Despliegue y Comunicación
+
+Para subir los archivos de la aplicación al servidor se usará SFTP, que es como el FTP de toda la vida pero seguro. La diferencia es que SFTP cifra los datos, así que nadie puede ver las contraseñas ni los archivos mientras viajan por Internet. Esto hace que el proceso sea mucho más fiable.
+
+El método será muy simple: conectarse al servidor con SFTP, subir los archivos y reiniciar los servicios que hagan falta. Es un proceso fácil y seguro.
+
+Para comunicarnos dentro del equipo usaremos Discord, porque permite avisar rápido si hay un problema, mandar mensajes cortos y recibir alertas si el servidor se cae. Así todos pueden enterarse al momento.
+
+## 4. Justificación Científica
+
