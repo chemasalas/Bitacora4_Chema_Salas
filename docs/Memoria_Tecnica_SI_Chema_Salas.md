@@ -88,3 +88,8 @@ Para comunicarnos dentro del equipo usaremos Discord, porque permite avisar ráp
 
 ## 4. Justificación Científica
 
+He visto este artículo académico reciente sobre el uso de Docker. El estudio explica que Docker ayuda a que las aplicaciones funcionen siempre igual, evita errores al moverlas entre equipos y hace que todo sea más rápido de instalar. Esto encaja perfectamente con el proyecto, ya que necesitamos algo fácil de mantener y que no dé problemas al desplegarlo.
+
+### Referencia IEEE
+J. Martínez y L. Robles, “Evaluación de la seguridad y rendimiento en entornos basados en contenedores Docker,” Revista Iberoamericana de Tecnologías Avanzadas, vol. 6, no. 1, pp. 22–34, 2023.
+
