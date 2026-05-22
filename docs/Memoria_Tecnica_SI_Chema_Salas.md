@@ -80,12 +80,9 @@ En conjunto, la combinación de Docker y Apache Guacamole proporciona una soluci
 
 ## 3. Estrategia de Despliegue y Comunicación
 
-Para subir los archivos de la aplicación al servidor se usará SFTP, que es como el FTP de toda la vida pero seguro. La diferencia es que SFTP cifra los datos, así que nadie puede ver las contraseñas ni los archivos mientras viajan por Internet. Esto hace que el proceso sea mucho más fiable.
+Para subir la aplicación al servidor utilizaremos SFTP que es método seguro para transferir archivos. Funciona igual que enviar documentos por FTP, pero con la diferencia de que SFTP cifra toda la información, incluyendo las contraseñas. Esto evita que alguien pueda ver o robar los datos mientras viajan por Internet. Gracias a esto, el proceso de despliegue es más seguro y adecuado para un entorno real. El procedimiento será sencillo: conectarse al servidor mediante SFTP, subir los archivos necesarios y reiniciar los servicios para que la aplicación quede actualizada.
 
-El método será muy simple: conectarse al servidor con SFTP, subir los archivos y reiniciar los servicios que hagan falta. Es un proceso fácil y seguro.
-
-Para comunicarnos dentro del equipo usaremos Discord, porque permite avisar rápido si hay un problema, mandar mensajes cortos y recibir alertas si el servidor se cae. Así todos pueden enterarse al momento.
-
+Para la comunicación del equipo usaremos Discord, ya que permite enviar mensajes rápidos, organizar canales y recibir avisos importantes. Si ocurre un problema en el servidor o algún servicio deja de funcionar, el equipo podrá avisarse de inmediato. Esto ayuda a reaccionar rápido ante cualquier incidencia y mantener el proyecto controlado en todo momento.
 ## 4. Justificación Científica
 
 He visto este artículo académico reciente sobre el uso de Docker. El estudio explica que Docker ayuda a que las aplicaciones funcionen siempre igual, evita errores al moverlas entre equipos y hace que todo sea más rápido de instalar. Esto encaja perfectamente con el proyecto, ya que necesitamos algo fácil de mantener y que no dé problemas al desplegarlo.
